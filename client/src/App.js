@@ -115,7 +115,7 @@ function App() {
 			</div>
 
 			<div className="existing-contracts">
-				<h1> Existing Contracts </h1>
+				<h1 className='text-red-500'>Existing Contracts </h1>
 
 				<ul id="container">
 					{escrows.map((escrow, i) => (
